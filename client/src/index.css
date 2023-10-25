@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  background: white;
+}
+
+.todoContainer{
+  width: 40rem;
+  margin: 10rem auto;
+  padding: 10px 0 20px;
+  border-radius: 5px;
+  box-shadow: rgb(170, 170, 170) 0px 0px 15px 5px;
+  background-color: white;
+}
+.todoItem{
+  margin: 5px 0;
+}
+.todoDeleteButton{
+  padding: 5px 22px;
+}
+
+.todoControls{
+  display: flex;
+  margin: 20px;
+}
+
+.todoInput{
+  margin-right: 20px;
+}
